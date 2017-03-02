@@ -1,0 +1,216 @@
+html{
+	height :100%;
+}
+
+
+body{
+  min-height: calc(100vh - 240px);
+  padding-bottom: 240px;
+  position: relative;
+  box-sizing: initial !important;
+  background : #3B4346 url("images/wall.jpg");
+}
+
+span{
+	padding-right: 30px;
+}
+
+
+button{
+	color:#303030!important;
+	font-family: impact;
+}
+
+.petitJouyLesLoges{	
+	display: flex;  
+	justify-content: center;
+}
+
+
+.formSubmit{
+	color:#303030!important;
+	font-family: impact;
+}
+
+.formButton{
+	color : black;
+}
+
+.corpsList {
+		padding-top: 25px;
+		align-content: center;
+		list-style: none;		
+		color:#222121!important;
+		font-size:18pt;
+
+}
+
+.nbEquipe {
+		display:flex;
+		flex-direction: column;
+		font-family: arial;
+		align-items: center;
+		font-size:12pt;		
+		background: #353D40 url("images/bg03.jpg");
+		padding: 15px 15px 30px 15px;
+		text-shadow: -1px -1px 1px rgba(0, 0, 0, 0.75);
+		border-radius : 15px;
+		border-style: outset;
+		padding-bottom: 10px;
+		margin-bottom: 10px;
+		position :relative;
+}
+
+
+.corps {		
+		display:flex;
+		flex-direction: column;
+		font-family: arial;
+		font-size:12pt;
+		align-items: center;
+		background: #3B4346 url("images/bg01.jpg") top center;
+		box-shadow: inset 0px -1px 0px 0px #272d30, inset 0px -2px 0px 0px #51575a;
+		text-shadow: -1px -1px 1px rgba(0, 0, 0, 0.75);
+		border-radius : 15px;
+		border-style: outset;
+		padding-bottom: 40px;
+		margin-bottom: 30px;
+		position :relative;
+		color : #fff;
+
+
+		}
+
+.corpsEquipe {
+		display:flex;
+		font-family: arial;
+		font-size:12pt;
+		background: #3B4346 url("images/bg01.jpg");
+		box-shadow: inset 0px -1px 0px 0px #272d30, inset 0px -2px 0px 0px #51575a;
+		text-shadow: -1px -1px 1px rgba(0, 0, 0, 0.75);
+		color : #fff;
+		border-radius : 15px;
+		border-style: outset;
+		padding-bottom: 20px;
+		margin-bottom: 30px;
+		margin-bottom: 30px;
+		padding-top: 20px;
+		position :relative;
+
+		}
+.corpsEquipeFormation {
+		font-family: sans-serif;
+		font-size:12pt;
+		background: #3B4346 url("images/bg01.jpg");
+		box-shadow: inset 0px -1px 0px 0px #272d30, inset 0px -2px 0px 0px #51575a;
+		text-shadow: -1px -1px 1px rgba(0, 0, 0, 0.75);
+		border-radius : 15px;
+		border-style: outset;
+		padding-bottom: 5px;
+		margin-bottom: 10px;
+		margin-bottom: 10px;
+		padding-top: 2px;
+		position :relative;
+
+		}
+
+ .profil {
+		display:flex;
+		flex-direction: column;
+		font-family: arial;
+		font-size:12pt;		
+		background: #353D40 url("images/bg02.jpg");
+		padding: 15px 15px 30px 15px;
+		text-shadow: -1px -1px 1px rgba(0, 0, 0, 0.75);
+		border-radius : 15px;
+		border-style: outset;
+		padding-bottom: 10px;
+		margin-bottom: 10px;
+		position :relative;
+		color : #fff;
+
+		}
+.corpsProfil {
+		text-align:center;
+		flex-direction: column;
+		font-family: sans-serif;
+		font-size:12pt;		
+		background: #353D40 url("images/bg01.jpg");
+		padding: 15px 15px 30px 15px;
+		text-shadow: -1px -1px 1px rgba(0, 0, 0, 0.75);
+		border-radius : 15px;
+		border-style: outset;
+		padding-bottom: 10px;
+		margin-bottom: 10px;
+		position :relative;
+		color : #fff;
+
+		}
+.corpsPage {
+		
+		text-align:center;
+		flex-direction: column;
+		font-family: impact;
+		font-size:16pt;		
+		
+		margin-bottom: 10px;
+		position :relative;		
+		color : #fff;
+
+		}
+
+.corpConnexion{
+	display:flex;
+	flex-direction: column;
+	font-family: arial;
+	font-size:12pt;		
+	background: #353D40 url("images/bg02.jpg") ;
+	padding: 15px 15px 30px 15px;
+	text-shadow: -1px -1px 1px rgba(0, 0, 0, 0.75);
+	align-items: center;
+	border-radius : 15px;
+	border-style: outset;
+	padding-bottom: 40px;
+	margin-bottom: 30px;
+	position :relative;
+}
+
+.corpFormation {
+	background-color:#DCDCDC;
+	display:flex;
+	flex-direction: column;
+	font-family: 'Yanone Kaffeesatz';
+	font-size:12pt;	
+}
+
+
+footer {
+	position: absolute;	
+	bottom: 0;
+	height: 220px;
+	width: 100%;
+}
+
+
+footer .row {
+	background: #353D40 url("images/bg02.jpg") ;
+	border-radius : 15px;
+	border-style : outset;
+	border-width: 2px;
+	padding-bottom : 10px;
+	color: #fff;
+
+
+	}
+
+
+ .liste-footer{
+	text-decoration : none ;
+	list-style: none;
+}
+
+.liensFooter a {
+	
+	color:#fff!important;
+}
+
